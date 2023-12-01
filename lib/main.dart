@@ -32,7 +32,7 @@ class TimerApp extends StatefulWidget {
 
 class _TimerAppState extends State<TimerApp> {
   late Stopwatch _stopwatch;
-  String _displayTime = "00:00:00.000";
+  String _displayTime = "00:00:00";
 
   @override
   void initState() {
