@@ -63,7 +63,7 @@ class _TimerAppState extends State<TimerApp> {
           } else {
             _stopwatch.stop();
             _stopwatch.reset();
-            _displayTime = "00:00:00.000";
+            _displayTime = "00:00:00";
           }
         },
         child: Center(
